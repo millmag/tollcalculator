@@ -1,0 +1,41 @@
+[{
+        "City": "Harare",
+        "Route": [{
+                "Mutare": {
+                    "tolgates": "3",
+                    "Data": "Harare - Rusape - Mutare"
+                }
+            },
+            {
+                "Masvingo": {
+                    "tolgates": "3",
+                    "Data": "Harare - Chivhu - Masvingo"
+                }
+            },
+            {
+                "Bulawayo": {
+                    "tolgates": "3",
+                    "Data": "Harare - Norton - Chegutu"
+                }
+            }
+        ],
+        "Date": ""
+    },
+    {
+        "City": "Mutare",
+        "Route": [{
+                "Harare": {
+                    "tolgates": "3",
+                    "Data": "Harare - Rusape - Mutare"
+                }
+            },
+            {
+                "Masvingo": {
+                    "tolgates": "1",
+                    "Data": "Mutae - Masvingo"
+                }
+            }
+        ],
+        "Date": ""
+    }
+]
