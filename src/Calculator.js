@@ -91,74 +91,70 @@ export default class Calculator extends Component {
         let total = null;
       switch(Departure) {
       case 'Harare':
-        if(Destination === 'Mazowe') {
+         if(Destination === 'Mazowe') {
+               tollgates = 1;
+               this.updateData(tollgates ,amount);
+         } else if(Destination === 'Bindura') {
             tollgates = 1;
             this.updateData(tollgates ,amount);
-        } else if(Destination === 'Bindura') {
-           tollgates = 1;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Mt Darwin') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Murewa') {
-           tollgates = 1;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Nyamapanda') {
-           tollgates = 1;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Gweru') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Chegutu') {
-           tollgates = 1;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Kwekwe') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Karoi') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Chivhu') {
-           tollgates = 1;
-           this.updateData(tollgates ,amount);
-        }else if(Destination === 'Masvingo') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Gutu') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-         else if(Destination === 'Mvuma') {
-           tollgates = 2;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Mutare') {
-           tollgates = 3;
-           this.updateData(tollgates ,amount);
-        }
-        else if(Destination === 'Bulawayo') {
-           tollgates = 4;
-           this.updateData(tollgates ,amount);
-        }
-         else{
-           alert("Try another Route");
-        }
-        break;
-      case 'Bulawayo':
-         if(Destination === 'Harare') {
+         }
+         else if(Destination === 'Mt Darwin') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Murewa') {
+            tollgates = 1;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Nyamapanda') {
+            tollgates = 1;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Gweru') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Chegutu') {
+            tollgates = 1;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Kwekwe') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Karoi') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Chivhu') {
+            tollgates = 1;
+            this.updateData(tollgates ,amount);
+         }else if(Destination === 'Masvingo') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Gutu') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+            else if(Destination === 'Mvuma') {
+            tollgates = 2;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Mutare') {
+            tollgates = 3;
+            this.updateData(tollgates ,amount);
+         }
+         else if(Destination === 'Bulawayo') {
             tollgates = 4;
             this.updateData(tollgates ,amount);
          }
-         else if(Destination === 'Hwange') {
+            else{
+            alert("Try another Route");
+         }
+        break;
+      case 'Bulawayo':
+         if(Destination === 'Hwange') {
           tollgates = 2;
           this.updateData(tollgates ,amount);
         }
@@ -178,7 +174,14 @@ export default class Calculator extends Component {
            tollgates = 1;
            this.updateData(tollgates ,amount);
         }
-        
+        else if(Destination === 'Harare') {
+           tollgates = 4;
+           this.updateData(tollgates ,amount);
+        }
+         else if(Destination === 'Mutare') {
+           tollgates = 4;
+           this.updateData(tollgates ,amount);
+        }
         else{
            alert("Try another Route");
         }
@@ -341,7 +344,7 @@ export default class Calculator extends Component {
                <option>Chegutu</option>
                <option>Zvishavane</option>
                <option>Bindura</option>
-               <option>Beitbridge</option>
+               <option>Beightbridge</option>
                <option>Victoria Falls</option>
                <option>Redcliff</option>
                <option>Hwange</option>
@@ -388,7 +391,7 @@ export default class Calculator extends Component {
                <option>Chegutu</option>
                <option>Zvishavane</option>
                <option>Bindura</option>
-               <option>Beitbridge</option>
+               <option>Beightbridge</option>
                <option>Victoria Falls</option>
                <option>Redcliff</option>
                <option>Hwange</option>
