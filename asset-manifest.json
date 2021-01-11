@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tollcalculator/static/css/main.8ea4f47f.chunk.css",
+    "main.js": "/tollcalculator/static/js/main.8f3c818b.chunk.js",
+    "main.js.map": "/tollcalculator/static/js/main.8f3c818b.chunk.js.map",
+    "runtime-main.js": "/tollcalculator/static/js/runtime-main.09e77a7d.js",
+    "runtime-main.js.map": "/tollcalculator/static/js/runtime-main.09e77a7d.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/tollcalculator/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.f8d6989c.chunk.js": "/tollcalculator/static/js/2.f8d6989c.chunk.js",
+    "static/js/2.f8d6989c.chunk.js.map": "/tollcalculator/static/js/2.f8d6989c.chunk.js.map",
+    "static/js/3.e4c1d683.chunk.js": "/tollcalculator/static/js/3.e4c1d683.chunk.js",
+    "static/js/3.e4c1d683.chunk.js.map": "/tollcalculator/static/js/3.e4c1d683.chunk.js.map",
+    "index.html": "/tollcalculator/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/tollcalculator/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.8ea4f47f.chunk.css.map": "/tollcalculator/static/css/main.8ea4f47f.chunk.css.map",
+    "static/js/2.f8d6989c.chunk.js.LICENSE.txt": "/tollcalculator/static/js/2.f8d6989c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/tollcalculator/static/media/bg.ce6243af.jpg",
+    "static/media/logo.6ce24c58.svg": "/tollcalculator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09e77a7d.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.f8d6989c.chunk.js",
+    "static/css/main.8ea4f47f.chunk.css",
+    "static/js/main.8f3c818b.chunk.js"
+  ]
+}
