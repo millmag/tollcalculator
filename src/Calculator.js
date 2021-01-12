@@ -77,12 +77,13 @@ export default class Calculator extends Component {
       this.getTollgates(amount);
   }
   updateData(tollgates , amount){
+     let total = amount * tollgates;
                 this.setState({
                 amount: amount,
                 tollgates: tollgates,
-                total: amount * tollgates,
+                total: total,
             });
-            alert('Tolling Amount : ZWL$' + amount)
+            alert('Tolling Amount : ZWL$' + total + '\n Tollgates : ' + tollgates )
   }
   getTollgates(amount){
       let Departure = this.state.From;
