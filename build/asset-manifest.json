@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tollcalculator/static/css/main.8ea4f47f.chunk.css",
-    "main.js": "/tollcalculator/static/js/main.7fdedfb6.chunk.js",
-    "main.js.map": "/tollcalculator/static/js/main.7fdedfb6.chunk.js.map",
+    "main.js": "/tollcalculator/static/js/main.79aa047c.chunk.js",
+    "main.js.map": "/tollcalculator/static/js/main.79aa047c.chunk.js.map",
     "runtime-main.js": "/tollcalculator/static/js/runtime-main.09e77a7d.js",
     "runtime-main.js.map": "/tollcalculator/static/js/runtime-main.09e77a7d.js.map",
     "static/css/2.1a02f21c.chunk.css": "/tollcalculator/static/css/2.1a02f21c.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.5d44e15e.chunk.js",
     "static/css/main.8ea4f47f.chunk.css",
-    "static/js/main.7fdedfb6.chunk.js"
+    "static/js/main.79aa047c.chunk.js"
   ]
 }
