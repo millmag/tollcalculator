@@ -82,6 +82,7 @@ export default class Calculator extends Component {
                 tollgates: tollgates,
                 total: amount * tollgates,
             });
+            alert('Tolling Amount : ZWL$' + amount)
   }
   getTollgates(amount){
       let Departure = this.state.From;
