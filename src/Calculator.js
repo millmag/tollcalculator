@@ -80,15 +80,15 @@ apiGetToll(amount){
       .catch(error => console.log('error', error));
   }
    handleSubmit(event){
-       let amount= null;
-      let tollgates= null;
-       amount= 120;
-      this.apiGetToll(amount);
-      event.preventDefault();
-   }
-  handleData(event) {
       let amount= null;
       let tollgates= null;
+      this.handleData();
+      event.preventDefault();
+   }
+  handleData() {
+      let amount= null;
+      let tollgates= null;
+      # alert(this.state.VClass);
       if(this.state.VClass === 'Light motor-vehicles') {
             amount= 164;
             this.updateCost(amount);
@@ -112,7 +112,6 @@ apiGetToll(amount){
             console.log('Error');
         }
       
-    event.preventDefault();
   }
   updateCost(amount){
       this.apiGetToll(amount);
@@ -125,7 +124,7 @@ apiGetToll(amount){
                 total: total,
                 detour: detour,
             });
-            alert('Tolling Amount : ZWL$' + total + '\n Tollgates : ' + tollgates )
+            
   }
    myChangeHandler = (event) => {
       let nam = event.target.name;
