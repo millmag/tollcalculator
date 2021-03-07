@@ -88,7 +88,6 @@ apiGetToll(amount){
   handleData() {
       let amount= null;
       let tollgates= null;
-      # alert(this.state.VClass);
       if(this.state.VClass === 'Light motor-vehicles') {
             amount= 164;
             this.updateCost(amount);
